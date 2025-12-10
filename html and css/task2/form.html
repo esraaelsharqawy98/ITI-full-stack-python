@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 class="heading">My Custom Form</h1>
+    <form action="success.html" class="myform">
+        <div class="form-group">
+            <label for="title" class="form-label">Video Title</label>
+            <input type="text" id="title" required>
+        </div>
+        <div class="form-group">
+            <label for="email" class="form-label">Email Address</label>
+            <input type="email" id="email" required>
+        </div>
+        <div class="form-group">
+            <label for="upload" class="form-label">Pick Your Video</label>
+            <input type="file" name="upload" id="upload" required>
+        </div>
+        <div class="form-group">
+            <label for="upload-date" class="form-label">Sharing Date</label>
+            <input type="date" name="date" id="upload-date" required>
+        </div>
+        <div class="form-group">
+            <label for="description" class="form-label">Video Description</label>
+            <textarea name="description" id="description" required></textarea>
+        </div>
+        <div class="form-group">
+            <label for="kids-content" class="form-label">This Video For Kid?</label>
+            <div class="radio-group">
+                <div class="radio-option">
+                    <input type="radio" name="kids_content" id="kids-yes" value="yes">
+                    <label for="kids-yes">Yes</label>
+                </div>
+                <div class="radio-option">
+                    <input type="radio" name="kids_content" id="kids-no" value="no">
+                    <label for="kids-no">No</label>
+                </div>
+            </div>
+        </div>
+        <input type="submit"/>
+    </form>
+</body>
+
+</html>
