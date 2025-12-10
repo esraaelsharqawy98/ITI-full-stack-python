@@ -18,16 +18,3 @@ This folder contains all the Frontend labs completed during my internship.
 
 ---
 
-## 📂 Folder Structure
-
-html and css/
-│
-├── task1/
-├── task2/
-├── task3/
-│
-|
-├── HTML Session 1.pptx
-├── HTML + CSS Session 2.pptx
-├── HTML + CSS Session 3.pptx
-└── README.md
